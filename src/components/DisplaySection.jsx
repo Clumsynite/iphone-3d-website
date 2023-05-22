@@ -1,6 +1,6 @@
 import React from "react";
 
-function DisplaySection() {
+function DisplaySection({ triggerPreview }) {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -13,7 +13,9 @@ function DisplaySection() {
       <h2 className="title">New</h2>
       <p className="text">Brilliant.</p>
       <span className="description">A display that's up to 2x brighter in the sun.</span>
-      <button className="button">Try me!</button>
+      <button className="button" onClick={triggerPreview}>
+        Try me!
+      </button>
       <button className="back-button" onClick={scrollToTop}>
         TOP
       </button>
