@@ -1,4 +1,4 @@
-import DisplaySection from "./components/DsiplaySection";
+import DisplaySection from "./components/DisplaySection";
 import Jumbotron from "./components/Jumbotron";
 import Nav from "./components/Nav";
 import SoundSection from "./components/SoundSection";
